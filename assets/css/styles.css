@@ -1198,6 +1198,13 @@ a.graylink{
 .topMenuBar2 .menu li .dropdown-item a:focus, .topMenuBar2 .menu li .dropdown-item a:hover{
     text-decoration: underline !important;
 } 
+.logo{
+    color: #FFFFFF;
+}
+.logo sup{
+    font-size: 8px;
+    top: -1.5em;
+}
 .robotobold{
     font-family: "Roboto-Bold";
     font-size: 22px;
