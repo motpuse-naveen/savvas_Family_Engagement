@@ -1147,6 +1147,7 @@ a.graylink{
 
 /*///SS*/
 
+
 .width50{
     width: 50%;
     display: inline-flex;
@@ -1197,6 +1198,14 @@ a.graylink{
 .topMenuBar2 .menu li .dropdown-item a:focus, .topMenuBar2 .menu li .dropdown-item a:hover{
     text-decoration: underline !important;
 } 
+.robotobold{
+    font-family: "Roboto-Bold";
+    font-size: 22px;
+}
+.robotothin{
+    font-family: "Roboto-Thin";
+    font-size: 22px;
+}
 .bg-panel1{
     background: url(../images/confetti.png);
     background-size: contain;
