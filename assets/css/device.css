@@ -4,6 +4,81 @@
         font-size: 44px;
     }
 }
+@media (max-width: 1100px) {
+    .p2-1{
+        top: -100px;
+        width: 200px;
+    }
+    .p2-2{
+        top: -70px;
+        right: -25px;
+        width: 200px;
+    }
+    .p2-3{
+        top: 140px;
+        left: -40px;
+        width: 200px;
+    }
+    .p2-4{
+        width: 140px;
+        bottom: -10px;
+    }
+    .p2-5{
+        width: 280px;
+        bottom: -35px;
+        right: -80px;
+    }
+    .p3-1{
+        bottom: -100px;
+    }
+    .p3-2{
+        width: 210px;
+        top: 57px;
+        left: -50px;
+    }
+    .p3-3{
+        bottom: 90px;
+    }
+    
+    .p4-1{
+        top: -247px;
+        width: 245px;
+        left: -30px;
+    }
+    .p4-2{
+        top: -275px;
+        width: 290px;
+        right: -67px;
+    }
+    .p4-3{
+        width: 220px;
+        top: 28px;
+        left: -40px;
+    }
+    .p4-4{
+        bottom: 50px;
+    }
+    .p4-5{
+        top: -20px;
+        transform: rotate(
+    -24deg);
+    }
+    .p4-6{}
+    .p4-7{
+        left: 60px;
+        transform: rotate(
+    12deg);
+    }
+    .p4-8{
+        width: 150px;
+        bottom: -30px;
+        right: 50px;
+    }
+    .p4-9{
+        width: 160px;
+        right: 155px;
+    }
+}
 @media (max-width: 990px) {
     .left-side-bar{
         display: none;
@@ -23,6 +98,12 @@
         width: auto;
         margin: 0px 20px;
     }
+    body{
+        font-size: 16px;
+    }
+    .content-panel .text-content {
+        font-size: 16px;
+    }
 }
 
 @media (max-width: 768px) {
@@ -41,26 +122,38 @@
 }
 
 @media (max-width: 730px) {
-    .card-body p.card-text{
-        font-size: 11px;
+    .image-top-left{
+        position: relative;
+        left: 0;
+        top: 0;
     }
-    .card-body.img-card img{
+    .image-top-right{
+        position: relative;
+        right: 0;
+        top: 0;
+    }
+    .image-bottom-left{
+        position: relative;
+        left: 0;
+        bottom: 0;
+    }
+    .image-bottom-right{
+        position: relative;
+        right: 0;
+        bottom: 0;
+    }
+    .width50{
         width: 100%;
-        height: auto;
-        max-width: 250px;
+        display: inline-flex;
     }
-    .card-wrap.row{
-        min-width: 785px;
+    .width75{
+        width: 100%;
+        display: inline-flex;
     }
-    #buttonCarouselPrev,#buttonCarouselNext{
-        display: block;
+    .width65{
+        width: 100%;
+        display: inline-flex;
     }
-    .CarouselDots{
-        display: block;
-    }
-}
-
-@media (max-width: 640px) {
     .topMenuBar2 {display: none;}
     .orbit1, .orbit2, .orbit3{display: none;}
     .left-side-bar{display: none;}
