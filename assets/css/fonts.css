@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'FontoonCom';
+     src:local('Fontoon'), url('../css/fonts/FontoonITCStd.otf') format('opentype');
+  }
+  
+  @font-face {
+    font-family: 'Avenir-Roman';
+     src:local('Avenir'), url('../css/fonts/AvenirLTStd-Roman.otf') format('opentype');
+  }
