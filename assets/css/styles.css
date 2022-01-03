@@ -1166,14 +1166,16 @@ a.graylink{
     flex-wrap: wrap;
     justify-content: space-between;
     text-align: left;
-    width: 60%;
+    width: 56%;
+    margin-left: 1.3rem;
+    margin-bottom: 1rem;
 }
 .liststyledisc li{
     list-style: disc;
     width: 100%;
 }
 .twoGrid li{
-    flex: 0 45%;
+    flex: 0 46%;
     margin-bottom: 20px;
 }
 .noFlex{
@@ -1238,7 +1240,8 @@ a.graylink{
 .bg-panel3{
     background: url(../images/confetti-2.png);
     background-size: contain;
-    background-position-x: center;
+    /*background-position-x: center;*/
+    background-position-x: 60px;
     background-repeat:no-repeat;
     max-width: 1268px;
     margin: 0 auto;
@@ -1287,6 +1290,8 @@ a.graylink{
     justify-content: space-between;
     text-align: left;
     width: 90%;
+    margin-left: 1.3rem;
+    margin-bottom: 1rem;
 }
 .liststyledisc2 li{
     list-style: disc;
