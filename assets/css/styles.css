@@ -52,13 +52,22 @@ body, html {
 }
 
 .container-fs.bb {
-    width: 100%;
-    height: 104px;
-    /*margin: 40px 0 0;*/
+    /*width: 100%;*/
+    /*height: 104px;
+    margin: 40px 0 0;*/
     padding: 47px 147px 18px 40px;
     background-color: #00325b;
     z-index: 5;
 }
+.container-fs.link-container{
+    padding: 0 40px;
+    padding-top: 104px;
+}
+.container-fs.link-container h1{
+    font-size: 24px;
+    padding: 10px 0;
+}
+
 
 .fixed-bar {
     position: fixed;
@@ -1207,6 +1216,7 @@ a.graylink{
 .logo sup{
     font-size: 8px;
     top: -1.5em;
+    position: relative
 }
 .logo a:hover, .logo a:focus {
     text-decoration: none;
