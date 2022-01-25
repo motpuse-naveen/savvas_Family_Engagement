@@ -1378,6 +1378,8 @@ a.graylink{
     right: 50px;
 }
 .p4-9{
-    width: 180px;
+    width: 155px;
     right: 155px;
+    top: -68px;
+    transform: rotate(-14deg);
 }
