@@ -3,6 +3,12 @@
     .popup-left-title{
         font-size: 44px;
     }
+    .ConfettiL{
+        width: 250px;
+    }
+    .ConfettiR{
+        width: 250px;
+    }
 }
 @media (max-width: 1100px) {
     .p2-1{
@@ -41,7 +47,7 @@
     }
     
     .p4-1{
-        top: -247px;
+        top: 120px;
         width: 245px;
         left: -30px;
     }
@@ -76,7 +82,35 @@
     }
     .p4-9{
         width: 160px;
-        right: 155px;
+    }
+    .p4-4{
+        width: 200px;
+    }
+    .p4-7{
+        left: 20px;
+    }
+    .p4-3{
+        width: 170px;
+    }
+    .p4-2{
+        width: 230px;
+    top: -200px;
+    }
+    .p4-1{
+        width: 220px;
+        top: 180px;
+    }
+    .p3-3{
+        width: 180px;
+    }
+    .p3-1{
+        width: 180px;
+    }
+    .p3-2{
+        width: 190px;
+    }
+    .p2-4{
+        width: 100px;
     }
 }
 @media (max-width: 990px) {
@@ -109,22 +143,71 @@
     .twoGrid li {
         flex: 0 100%;
     }
+    .ConfettiL{
+        width: 200px;
+    }
+    .ConfettiR{
+        width: 200px;
+    }
+    .p4-1{
+        width: 220px;
+        top: 220px;
+    }
 }
 
 @media (max-width: 768px) {
     .left-side-bar{
         display: none;
     }
-    .text-content figure.right-image{
-        margin-top: -100px;
+    .fixed-head-bar {
+        position: absolute;
     }
-    .card-back{
-        font-size: 10px;
+    .topMenuBar2 {display: none;}
+    .top-mobile-menu-button{
+        display: block;
+        padding:20px;
+        padding-bottom: 5px;
+        width: 100%;
     }
-    .card-body-thumb a.card-text{
-        font-size: 16px;
+    .dropdown-menu{
+        background-color:#FFFFFF;
+        border: 0;
+        top: 6px !important;
+    }
+    .dropdown-menu .dropdown-item{
+        padding: 0.25rem .5rem;
+    }
+    .dropdown-item:hover, .dropdown-item:focus{
+        background-color: #f8f9fa;
+    }
+    .container-fs.bb{
+        padding: 0px 0 0px 0;
+    }
+    .container-fs.slide{
+        margin-top: 65px;
+    }
+    img.image-top-left, img.image-top-right, img.image-bottom-left, img.image-bottom-right{
+        max-width: 160px;
+    }
+    .p4-8, .p4-9{
+        right: 10px;
+    }
+    .p4-2{
+        top: -160px;
+        right: -026px;
+    }
+    .p4-1{
+        top: 140px;
+    }
+    .p2-5{
+        right: 0px;
+    }
+    .p4-1 {
+        width: 220px;
+        top: 265px;
     }
 }
+
 
 @media (max-width: 730px) {
     .image-top-left{
@@ -184,6 +267,12 @@
     .slide-before-reading .content-panel{
         padding-top: 30px;
     }
+    .ConfettiL{
+        display: none;
+    }
+    .ConfettiR{
+        display: none;
+    }
     .banner-bg{
         height: 326px;
     }
@@ -224,7 +313,7 @@
         box-shadow: none;
         -webkit-box-shadow: none;
         -moz-box-shadow: none;
-        padding: 45px 0 0 0;
+        padding: 0px 0 0px 0;
     }
     .flex-fill {
         -ms-flex: 1 1 auto !important;
@@ -258,7 +347,7 @@
     }
 
     .container-fs.slide {
-        margin-top: 0px;
+        margin-top: 30px;
     }
     .award-circle-wrap {
         padding-left: 0px;
@@ -313,6 +402,17 @@
     table.table-style1{
         font-size: 12px;
     }
+    .content-panel .text-content h2{
+        margin: 20px 5px;
+    margin-bottom: 10px;
+    }
+    .twoGrid, .liststyledisc{
+        width: 90%;
+    }
+    .p4-9{
+        top: 0px;
+    }
+    
 }
 @media (max-width: 550px) {
     h1.main-heading{
@@ -324,6 +424,39 @@
     }
     .text-content figure.right-image{
         width: 175px;
+    }
+    .width768less{
+        display: block;
+    }
+    .width768{
+        display: none;
+    }
+    .tablecellleft{
+        text-align: left; display: block;width: 100%;
+    }
+    .tablecellleft_1{
+        text-align: left; display: block;width: 100%;
+    }
+    .tablecellright{
+        text-align: left; display: block;padding-right: 0px;
+    }
+    .tablecellleft1{
+        width: 100%;text-align: left;display: block;
+    }
+    .tablecellright1{
+        text-align: left;padding-right: 0px;display: block;
+    }
+    .tablecellright1_1{
+        text-align: left;padding-right: 0px;display: block;
+    }
+    .tablecellleft2{
+        text-align: left; display: block;width: 100%;
+    }
+    .tablecellright2{
+        text-align: left; display: block;padding-right: 0px;
+    }
+    .content-panel .text-content p{
+        margin-left: 0px;
     }
 }
 @media (max-width: 460px) {
@@ -339,6 +472,10 @@
     html, body {
         overflow-x: hidden;
       }
+      .content-panel .title-wrap{
+        background-size: auto 230px;
+        height: 220px
+    }
     
 }
 @media (max-width: 430px) {
@@ -355,6 +492,7 @@
     .banner-bg {
         height: 364px;
     }
+    
 }
 @media (max-width: 375px) {
     .banner-bg-small {
@@ -385,5 +523,8 @@
     }
     .banner-bg {
         height: 316px;
+    }
+    img.image-top-left, img.image-top-right, img.image-bottom-left, img.image-bottom-right{
+        /*display: none;*/
     }
 }
